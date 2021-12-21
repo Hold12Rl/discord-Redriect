@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-image: url(images/homepage/bg.png);
+    background-position: center;
+    background-size: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(63, 63, 63);
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(31, 31, 31);
+    font-size: 100px;
+    text-align: center;
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 15px;
+}
+.col a{
+    width: 180px;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px 0;
+    padding-bottom: 12px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 29px;
+
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/homepage/pic-1.png);
+}
+.card2{
+    background-image: url(images/homepage/pic-2.png);
+}
+.card3{
+    background-image: url(images/homepage/pic-3.png);
+}
+.card4{
+    background-image: url(images/homepage/pic-4.png);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    font-size: 20px;
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    text-decoration: none;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
